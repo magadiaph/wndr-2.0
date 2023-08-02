@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+
+        background: linear-gradient(to left, rgba(3, 45, 52, 0.689), rgba(122, 105, 7, 0.71));
+
+        
+    }
+            .navbar {
+                height: 50px;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+            
+            }
+
+            .nav-brand {
+                font-family: 'Cormorant', serif;
+                font-size: 20px;
+                color: white;
+            }
+
+        .hero-section {
+            height: 100vh;
+            background-image: url("https://images.pexels.com/photos/1095817/pexels-photo-1095817.jpeg");
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+            .hero-heading {
+                font-family: 'Cormorant', serif;
+                font-size: 200px;
+                color: white;
+                text-shadow: 2px 5px 5px rgb(5, 71, 86);
+                background: radial-gradient( rgba(152, 151, 151, 0.397), rgba(7, 92, 116, 0.451), rgba(229, 229, 229, 0), rgba(164, 162, 162, 0));
+            }
+
+            form {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .input {
+                color:  rgba(238, 243, 244, 0.927);
+                text-shadow: 2px 5px 5px rgb(5, 71, 86);
+                font-size: xx-large;
+                font-weight: bold;
+            }
+
+            .number-input {
+                width: 270px;
+                height: 40px;
+                font-size: x-large;
+
+            }
+
+            .choices {
+                margin: 15px 0;
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .btn {
+                margin: 0 10px;
+                padding: 8px 24px;
+                border-radius: 25px;
+                box-shadow: 2px 5px 5px grey;
+                
+                background-color: rgb(211, 212, 212);
+                
+                font-weight: bold;
+                color:  rgba(3, 45, 52, 0.689);
+                text-align: center;
+                text-decoration: none;
+            }
+
+                .btn:hover {
+                    background: linear-gradient(to left, rgba(150, 133, 2, 0.689), rgba(122, 105, 7, 0.71));
+
+                    font-weight: bold;
+                    color: rgba(242, 242, 242, 0.93);
+                }
+
+                .btn:active {
+                    background: linear-gradient(to left, rgba(150, 133, 2, 0.689), rgba(5, 101, 109, 0.77));
+
+                    font-weight: bold;
+                    color: rgba(242, 242, 242, 0.93);
+                }
+
+
+        .answers {
+            width: 500px;
+            margin: 20px;
+            background: linear-gradient(to bottom, rgba(210, 199, 114, 0.689), rgba(7, 107, 122, 0.768));
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px rgba(1, 19, 31, 0.636);
+
+            text-align: left;
+
+            padding: 15px;
+
+            color: white;
+        }
+
+        .answer {
+            color: white;
+        }

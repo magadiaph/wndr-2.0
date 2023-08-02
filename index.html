@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WNDR</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+
+    <nav>
+        <div class="navbar">
+            <span class="nav-brand">
+                WNDR
+            </span>
+        </div>
+    </nav>
+
+
+    <section class="hero-section">
+        <section class="site-title">
+            <span class="hero-heading">wander.</span>
+        </section>
+
+        <section class="calculator">
+            <!-- <section class="input">
+                <form action="#" method="#">
+                    <label for="number"> Enter Number:</label>
+                    <input type="number" id="number" class="number-input" name="number">
+                </form>
+             </section> -->
+
+             <!-- <section class="choices">
+                <button class="hour-btn btn" onclick="hour()">Hour</button>
+                <button class="minutes-btn btn" onclick="minutes()">Minutes</button>
+                <button class="seconds-btn btn" onclick="seconds()">Seconds</button>
+              </section> -->
+
+                <!-- select option -->
+                <section class="first-section">
+                    <!-- <label for="first-unit"> Select a unit:</label> -->
+                    <select name="firstUnit" id="firstUnit">
+                        <option selected>Choose a unit</option>
+                        <option>Hours</option>
+                        <option>Minutes</option>
+                        <option>Seconds</option>
+                    </select>
+
+                    <section class="input">
+                        <form action="#" method="#">
+                            <!-- <label for="number"> Enter Number:</label> -->
+                            <input type="number" id="number" class="number" name="number">
+                        </form>
+                    </section>
+                </section>
+
+                <section class="mid-section">
+                    <i class="fa-solid fa-arrows-up-down fa-fade" style="color: #f8f9fa;"></i>
+                </section>
+
+               <!-- select option -->
+               <section class="second-section">
+                    <!-- <label for="second-unit"> Select a unit:</label> -->
+                    <select name="secondUnit" id="secondUnit" oninput="myDisplay()">
+                        <option selected>Choose a unit</option>
+                        <option>Hours</option>
+                        <option>Minutes</option>
+                        <option>Seconds</option>
+                    </select>
+
+                    <section class="answer">
+                        <h1 id="answer"></h1>
+                    </section>
+            </section>
+
+        <div class="hero-overlay"></div>
+
+    </section>
+
+
+</body>
+</html>

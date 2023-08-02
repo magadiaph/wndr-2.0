@@ -23,7 +23,11 @@ function myDisplay () {
     } else if (firstValue == "Seconds" && secondValue == "Minutes") {
         answer.innerHTML = numValue / 60;
     } else if (firstValue === secondValue) {
-        alert ("Please choose a different unit of measure.")
+        alert ("Please choose a different unit of measure.");
+    } else if (firstValue == "Choose a unit" || secondValue == "Minutes") {
+        answer.innerHTML = "Choose a conversion unit.";
+    } else if (firstValue == "Hours" || secondValue == "Choose a unit") {
+        answer.innerHTML = "Choose a conversion unit.";
     } else {
         answer.innerHTML = "-";
     }
